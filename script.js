@@ -230,6 +230,7 @@ const searchEngines = {
   duckduckgo: 'https://duckduckgo.com/?q=',
   yahoo: 'https://search.yahoo.com/search?p=',
   yandex: 'https://yandex.com/search/?text='
+  Brave: 'https://search.brave.com/?lang=en-in'
 };
 
 const engineIcons = document.querySelectorAll('.engine-icon');
@@ -252,6 +253,7 @@ function updateSearchEngine(engine) {
     duckduckgo: 'DuckDuckGo',
     yahoo: 'Yahoo',
     yandex: 'Yandex'
+    Brave: 'Brave'
   };
   
   searchInput.placeholder = `Search with ${engineNames[engine]}...`;
